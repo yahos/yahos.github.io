@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2021/01/29/test/"/>
-    <url>/2021/01/29/test/</url>
+    <title>常用命令</title>
+    <link href="/2021/01/29/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/2021/01/29/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     
-    <content type="html"><![CDATA[<h1 id="linux常用命令"><a href="#linux常用命令" class="headerlink" title="linux常用命令"></a>linux常用命令</h1><table><thead><tr><th align="left">命令</th><th align="left">功能</th></tr></thead><tbody><tr><td align="left">sudo ufw status</td><td align="left">查看本地的端口开启情况</td></tr><tr><td align="left">sudo ufw allow 端口名</td><td align="left">打开相应端口</td></tr><tr><td align="left">sudo ufw enable</td><td align="left">防火墙开启</td></tr><tr><td align="left">sudo ufw reload</td><td align="left">防火墙重启</td></tr><tr><td align="left">telnet 192.168.1.103 80</td><td align="left">测试主机的80端口是否开启</td></tr><tr><td align="left">kill -9 PID号</td><td align="left">关闭进程</td></tr><tr><td align="left">lsof -i:端口号</td><td align="left">查找对应端口进程</td></tr><tr><td align="left">lsof -i</td><td align="left">列出所有进程</td></tr></tbody></table><h2 id="screen命令"><a href="#screen命令" class="headerlink" title="screen命令"></a>screen命令</h2><table><thead><tr><th>命令</th><th>功能</th></tr></thead><tbody><tr><td>screen -S yourname</td><td>新建一个yourname的session</td></tr><tr><td>screen -ls</td><td>列出当前所有的session</td></tr><tr><td>screen -r yourname</td><td>回到yourname的session</td></tr><tr><td>screen -d yourname</td><td>远程detach某个session</td></tr><tr><td>C-a d</td><td>detach 暂时离开当前的session，将目前的screen session掉到后台运行，并回到还没进screen的状态，此时在screen session里，每个window内运行的process都在继续运行，即使logout也不影响</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h1 id="linux常用命令"><a href="#linux常用命令" class="headerlink" title="linux常用命令"></a>linux常用命令</h1><table><thead><tr><th align="left">命令</th><th align="left">功能</th></tr></thead><tbody><tr><td align="left">sudo ufw status</td><td align="left">查看本地的端口开启情况</td></tr><tr><td align="left">sudo ufw allow 端口名</td><td align="left">打开相应端口</td></tr><tr><td align="left">sudo ufw enable</td><td align="left">防火墙开启</td></tr><tr><td align="left">sudo ufw reload</td><td align="left">防火墙重启</td></tr><tr><td align="left">telnet 192.168.1.103 80</td><td align="left">测试主机的80端口是否开启</td></tr><tr><td align="left">kill -9 PID号</td><td align="left">关闭进程</td></tr><tr><td align="left">lsof -i:端口号</td><td align="left">查找对应端口进程</td></tr><tr><td align="left">lsof -i</td><td align="left">列出所有进程</td></tr></tbody></table><h1 id="screen命令"><a href="#screen命令" class="headerlink" title="screen命令"></a>screen命令</h1><table><thead><tr><th>命令</th><th>功能</th></tr></thead><tbody><tr><td>screen -S yourname</td><td>新建一个yourname的session</td></tr><tr><td>screen -ls</td><td>列出当前所有的session</td></tr><tr><td>screen -r yourname</td><td>回到yourname的session</td></tr><tr><td>screen -d yourname</td><td>远程detach某个session</td></tr><tr><td>C-a d</td><td>detach 暂时离开当前的session，将目前的screen session掉到后台运行，并回到还没进screen的状态，此时在screen session里，每个window内运行的process都在继续运行，即使logout也不影响</td></tr></tbody></table>]]></content>
     
     
     
